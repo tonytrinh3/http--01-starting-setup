@@ -18,7 +18,7 @@ class NewPost extends Component {
 
         }
         //axios stringify the object and turn into a json data 
-        axios.post('https://jsonplaceholder.typicode.com/posts',data)
+        axios.post('/posts',data)
             .then(response => {
                 console.log(response);  
             });
